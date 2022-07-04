@@ -1,35 +1,28 @@
-# AutoMorph 👀
-
-![](../images/Figure1.jpg)
-
-
-Automated Retinal Vascular Morphology Quantification via a Deep Learning Pipeline
-[[paper](https://www.medrxiv.org/content/10.1101/2022.05.26.22274795v1.full.pdf)][[code](https://github.com/rmaphoh/AutoMorph)]
-
-### Brief
-AutoMorph includes four modules, the retinal image preprocessing, image quality grading, anatomical segmentation (vessel, artery/vein, optic disc/cup), and clinically-relevant feature measurement. AutoMorph can be applied for **data curation**, **segmentation task**, and **clinical correlation research**, such as '[oculomics](https://tvst.arvojournals.org/article.aspx?articleid=2761238)'. AutoMorph has been externally validated on public datasets and now deployed in large-scale clinical research with [UK BioBank](https://www.ukbiobank.ac.uk/) and [AlzEye](https://readingcentre.org/workstreams/artificial_intelligence_hub/alzeye/).
-
-![](../images/Figure2.png)
-
-### Usage
-Three options to run AutoMorph: 
-1) Google Colab
-2) configure enviroment on local/virtual machine 
-3) Docker image. 
-
-More details can be referred to [Github page](https://github.com/rmaphoh/AutoMorph).
-
-### Contributing
-Being involved in AutoMorph from any of following points:
-
-* Improvement on code structure, formating or document
-* Suggestions to improve user experience
-* Adding deep learning baselines
-* etc.
-
-### Collaboration
-Potential collaboration is warmly welcomed. It includes but not limited to AutoMorph deployment, cross validation, and technique upgrade. Please contact with the senior authors or first author.
-
+<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="AutoMorph__0"></a>AutoMorph 👀</h1>
+<p class="has-line-data" data-line-start="2" data-line-end="3"><img src="../images/Figure1.jpg" alt=""></p>
+<p class="has-line-data" data-line-start="5" data-line-end="7">Automated Retinal Vascular Morphology Quantification via a Deep Learning Pipeline<br>
+[<a href="https://www.medrxiv.org/content/10.1101/2022.05.26.22274795v1.full.pdf">paper</a>][<a href="https://github.com/rmaphoh/AutoMorph">code</a>]</p>
+<h3 class="code-line" data-line-start=8 data-line-end=9 ><a id="Brief_8"></a>Brief</h3>
+<p class="has-line-data" data-line-start="9" data-line-end="10">AutoMorph includes four modules, the retinal image preprocessing, image quality grading, anatomical segmentation (vessel, artery/vein, optic disc/cup), and clinically-relevant feature measurement. AutoMorph can be applied for <strong>data curation</strong>, <strong>segmentation task</strong>, and <strong>clinical correlation research</strong>, such as ’<a href="https://tvst.arvojournals.org/article.aspx?articleid=2761238">oculomics</a>'. AutoMorph has been externally validated on public datasets and now deployed in large-scale clinical research with <a href="https://www.ukbiobank.ac.uk/">UK BioBank</a> and <a href="https://readingcentre.org/workstreams/artificial_intelligence_hub/alzeye/">AlzEye</a>.</p>
+<p class="has-line-data" data-line-start="11" data-line-end="12"><img src="../images/Figure2.png" alt="image"></p>
+<h3 class="code-line" data-line-start=13 data-line-end=14 ><a id="Usage_13"></a>Usage</h3>
+<p class="has-line-data" data-line-start="14" data-line-end="15">Three options to run AutoMorph:</p>
+<ol>
+<li class="has-line-data" data-line-start="15" data-line-end="16">Google Colab</li>
+<li class="has-line-data" data-line-start="16" data-line-end="17">configure enviroment on local/virtual machine</li>
+<li class="has-line-data" data-line-start="17" data-line-end="19">Docker image.</li>
+</ol>
+<p class="has-line-data" data-line-start="19" data-line-end="20">More details can be referred to <a href="https://github.com/rmaphoh/AutoMorph">Github page</a>.</p>
+<h3 class="code-line" data-line-start=21 data-line-end=22 ><a id="Contributing_21"></a>Contributing</h3>
+<p class="has-line-data" data-line-start="22" data-line-end="23">Being involved in AutoMorph from any of following points:</p>
+<ul>
+<li class="has-line-data" data-line-start="24" data-line-end="25">Improvement on code structure, formating or document</li>
+<li class="has-line-data" data-line-start="25" data-line-end="26">Suggestions to improve user experience</li>
+<li class="has-line-data" data-line-start="26" data-line-end="27">Adding deep learning baselines</li>
+<li class="has-line-data" data-line-start="27" data-line-end="29">etc.</li>
+</ul>
+<h3 class="code-line" data-line-start=29 data-line-end=30 ><a id="Collaboration_29"></a>Collaboration</h3>
+<p class="has-line-data" data-line-start="30" data-line-end="31">Potential collaboration is warmly welcomed. It includes but not limited to AutoMorph deployment, cross validation, and technique upgrade. Please contact with the senior authors or first author.</p>
 
 
 
