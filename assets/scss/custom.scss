@@ -12,7 +12,7 @@
 // Widen entire post content area
 .single.type-post .page__container,
 .single.type-post .article-container {
-  max-width: 1100px;  // or try 1200px if needed
+  max-width: 1100px !important;  // or try 1200px if needed
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
@@ -22,4 +22,15 @@
 // Hide social icons only on individual post pages
 .single.type-post .author__social {
   display: none !important;
+}
+
+/* Override max-width for post page */
+article > main {
+  max-width: 1200px !important;
+}
+
+/* Optional: reduce padding */
+article > main {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
