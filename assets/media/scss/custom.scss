@@ -1,0 +1,18 @@
+.page__container {
+  max-width: 1100px; // You can increase to 1200px if desired
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.single.type-post .page__container {
+  max-width: 1100px;       // Or 1200px for more width
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yukun Zhou (周玉昆)
+title: Yukun Zhou
 
 # Full name (for SEO)
 first_name: Yukun
