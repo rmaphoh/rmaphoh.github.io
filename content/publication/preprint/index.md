@@ -1,12 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "Revealing the Impact of Pre-training Data on Medical Foundation Models"
 authors:
-- admin
-date: "2019-04-07T00:00:00Z"
-doi: ""
+- Y Zhou
+date: "2025-04-03"
+doi: "10.21203/rs.3.rs-6080254/v1"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-04-03"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -17,32 +17,25 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Medical foundation models (FM), pre-trained on large-scale unlabelled data, have demonstrated robust performance and high efficiency when fine-tuned to various clinically relevant applications. However, the impact of pre-training data on medical FM performance such as generalisability and fairness, which form the foundation in fine-tuned models, remains unexplored. To address this, we sampled two large cohorts from two sites, Moorfields Eye Hospital (UK) and the Shanghai Diabetes Prevention Program (China), each containing 904,170 retinal images for FM pre-training. We developed parallel FMs using identical processes and compared their fairness and generalisability on downstream tasks with publicly available datasets and held-out data from each site. Our results demonstrate that, despite strong generalisability, medical FMs perform significantly better on downstream data that align with the pre-training data in approximately one-third of tasks. Additionally, age is a key metadata factor impacting FM fairness and generalisability in retinal images, whereas sex and ethnicity show no such impact. These findings advocate for an evidence-based approach to pre-training data selection and highlight the importance of transparency even for pre-training data, ultimately enhancing FM capabilities and guiding FM development and customised application in healthcare.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+- Foundation Model
 
-featured: true
+featured: True
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+- name: URL
+  url: https://www.researchsquare.com/article/rs-6080254/v1
+
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ''
   focal_point: ""
   preview_only: false
 

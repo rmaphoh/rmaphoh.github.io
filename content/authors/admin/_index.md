@@ -68,12 +68,10 @@ awards:
     url: https://www.ucl.ac.uk/brain-sciences/news/2025/apr/dr-yukun-zhou-receives-prestigious-wellcome-early-career-award
     date: '2025-04-23'
     awarder: Wellcome Trust
-    icon: Wellcome Trust
-  - title: UKRI AI innovation to accelerate health research (Co-I)
+  - title: UKRI AI innovation to accelerate health research
     url: https://www.ukri.org/news/13-million-for-22-ai-for-health-research-projects/
     date: '2023-12-01'
     awarder: UKRI
-    icon: UKRI
   - title: Australian Vision Research Grants Program
     url: https://australianvisionresearch.org/grants/
     date: '2024-12-01'

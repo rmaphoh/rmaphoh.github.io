@@ -43,4 +43,18 @@ abstract: Medical artificial intelligence (AI) offers great potential for recogn
 links:
 - name: URL
   url: https://doi.org/10.1038/s41586-023-06555-x
+
+
+tags:
+- Foundation Model
+
+featured: True
+
+
+image:
+  caption: ''
+  focal_point: ""
+  preview_only: false
+
+
 ---
