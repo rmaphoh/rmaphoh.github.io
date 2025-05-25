@@ -1,3 +1,2 @@
-<style>
-  {{- resources.Get "scss/custom.scss" | toCSS | safeCSS -}}
-</style>
+{{ $style := resources.Get "scss/custom.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
