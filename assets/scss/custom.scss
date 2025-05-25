@@ -1,36 +1,16 @@
-.page__container {
-  max-width: 1100px; // You can increase to 1200px if desired
+/* Increase max width of content container */
+.page__container,
+.article-container,
+.prose,
+.prose-lg,
+.prose-xl {
+  max-width: 1100px !important; /* or 1200px */
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
-.main-content {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-// Widen entire post content area
-.single.type-post .page__container,
-.single.type-post .article-container {
-  max-width: 1100px !important;  // or try 1200px if needed
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-// Hide social icons only on individual post pages
-.single.type-post .author__social {
-  display: none !important;
-}
-
-/* Override max-width for post page */
-article > main {
-  max-width: 1200px !important;
-}
-
-/* Optional: reduce padding */
-article > main {
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+.max-w-prose {
+  max-width: 1100px !important;
 }

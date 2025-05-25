@@ -11,11 +11,11 @@ publishDate: "2025-04-03"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types:
+- article-journal
+publication: '*Preprint*'
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
 
 abstract: Medical foundation models (FM), pre-trained on large-scale unlabelled data, have demonstrated robust performance and high efficiency when fine-tuned to various clinically relevant applications. However, the impact of pre-training data on medical FM performance such as generalisability and fairness, which form the foundation in fine-tuned models, remains unexplored. To address this, we sampled two large cohorts from two sites, Moorfields Eye Hospital (UK) and the Shanghai Diabetes Prevention Program (China), each containing 904,170 retinal images for FM pre-training. We developed parallel FMs using identical processes and compared their fairness and generalisability on downstream tasks with publicly available datasets and held-out data from each site. Our results demonstrate that, despite strong generalisability, medical FMs perform significantly better on downstream data that align with the pre-training data in approximately one-third of tasks. Additionally, age is a key metadata factor impacting FM fairness and generalisability in retinal images, whereas sex and ethnicity show no such impact. These findings advocate for an evidence-based approach to pre-training data selection and highlight the importance of transparency even for pre-training data, ultimately enhancing FM capabilities and guiding FM development and customised application in healthcare.
 
