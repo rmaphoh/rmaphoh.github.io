@@ -1,0 +1,49 @@
+---
+title: Cross-modality Labeling Enables Noninvasive Capillary Quantification as a Sensitive
+  Biomarker for Assessing Cardiovascular Risk
+authors:
+- D Shi
+- Y Zhou
+- S He
+- SK Wagner
+- Y Huang
+- PA Keane
+- DSW Ting
+- L Zhang
+- Y Zheng
+- M He
+date: '2024-05-01'
+publishDate: '2025-05-25T17:04:12.122257Z'
+publication_types:
+- article-journal
+publication: '*Ophthalmology Science*'
+doi: 10.1016/j.xops.2023.100441
+abstract: "PURPOSE: We aim to use fundus fluorescein angiography (FFA) to label the
+  capillaries on color fundus (CF) photographs and train a deep learning model to
+  quantify retinal capillaries noninvasively from CF and apply it to cardiovascular
+  disease (CVD) risk assessment. DESIGN: Cross-sectional and longitudinal study. PARTICIPANTS:
+  A total of 90732 pairs of CF-FFA images from 3893 participants for segmentation
+  model development, and 49229 participants in the UK Biobank for association analysis.
+  METHODS: We matched the vessels extracted from FFA and CF, and used vessels from
+  FFA as labels to train a deep learning model (RMHAS-FA) to segment retinal capillaries
+  using CF. We tested the model's accuracy on a manually labeled internal test set
+  (FundusCapi). For external validation, we tested the segmentation model on 7 vessel
+  segmentation datasets, and investigated the clinical value of the segmented vessels
+  in predicting CVD events in the UK Biobank. MAIN OUTCOME MEASURES: Area under the
+  receiver operating characteristic curve (AUC), accuracy, sensitivity, and specificity
+  for segmentation. Hazard ratio (HR; 95% confidence interval [CI]) for Cox regression
+  analysis. RESULTS: On the FundusCapi dataset, the segmentation performance was AUC
+  = 0.95, accuracy = 0.94, sensitivity = 0.90, and specificity = 0.93. Smaller vessel
+  skeleton density had a stronger correlation with CVD risk factors and incidence
+  (P < 0.01). Reduced density of small vessel skeletons was strongly associated with
+  an increased risk of CVD incidence and mortality for women (HR [95% CI] = 0.91 [0.84-0.98]
+  and 0.68 [0.54-0.86], respectively). CONCLUSIONS: Using paired CF-FFA images, we
+  automated the laborious manual labeling process and enabled noninvasive capillary
+  quantification from CF, supporting its potential as a sensitive screening method
+  for identifying individuals at high risk of future CVD events. FINANCIAL DISCLOSURES:
+  Proprietary or commercial disclosure may be found in the Footnotes and Disclosures
+  at the end of this article."
+links:
+- name: URL
+  url: http://dx.doi.org/10.1016/j.xops.2023.100441
+---

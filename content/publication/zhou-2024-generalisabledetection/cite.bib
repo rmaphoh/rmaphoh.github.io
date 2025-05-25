@@ -1,0 +1,16 @@
+@phdthesis{zhou2024generalisabledetection,
+ abstract = {Retinal anatomical tissues, including the nerve fibre layer and vasculature, provide a non-invasive view of central nervous system and microvascular system. The application of artificial intelligence (AI) in retinal image analysis holds significant promise in detecting indicators of health conditions within retinal images, facilitating the prompt diagnosis of eye diseases and systemic disorders. However, effective retinal image analysis necessitates the seamless integration of multiple AI models while developing such AI models requires substantial annotation efforts. Furthermore, these models often exhibit task-specific limitations with restricted generalisability across various clinical applications. 
+
+This project aims to investigate the generalisable methods for retinal image analysis that contribute to diverse healthcare applications. We first present AutoMorph, an automated pipeline for quantifying retinal morphology. This pipeline includes image preprocessing, image quality assessment, anatomical tissue segmentation, and clinically relevant indices measurement. To enhance the multi-class vessel segmentation, we devise a multi-branch network with information fusion to reduce segmentation error and propose an indices-optimised regularisation to segment multi-class vessels that derive accurate indices. AutoMorph modules perform well even when external validation data shows domain differences from training data, e.g. with different imaging devices. This fully automated pipeline allows efficient quantitative analysis of retinal morphology, supporting the discovery of the retinal morphology manifestation under various health conditions.
+
+Meanwhile, we present RETFound, a foundation model for retinal images that learns generalisable representations from unlabelled retinal images and provides a basis for label-efficient model adaptation in multiple disease detection. RETFound consistently enhances the diagnosis and prognosis of sight-threatening eye diseases, as well as incident prediction of complex systemic disorders such as myocardial infarction with limited labelled data. The fine-tuned models based on RETFound show good generalisability in external validation, with the data from different imaging devices and populations.
+
+This project provides AutoMorph and RETFound to enable generalisable retinal image analysis that supports diverse healthcare applications. By making all the developed tools and models publicly available, we hope this facilitates researchers worldwide to build their own models and collectively contribute to the healthcare community.},
+ author = {Zhou, Y},
+ conference = {UCL (University College London)},
+ language = {English},
+ pages = {1--279},
+ school = {},
+ title = {Generalisable Retinal Image Analysis for Disease Detection},
+ year = {2024}
+}
