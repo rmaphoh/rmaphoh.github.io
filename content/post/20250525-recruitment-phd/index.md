@@ -39,3 +39,4 @@ This is a four-year PhD programme:
 To apply or express interest, please email **ykzhoua@gmail.com** with a brief introduction, one-page research proposal and your CV attached.
 
 The official application will be opened around November 2025.
+
