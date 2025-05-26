@@ -43,9 +43,13 @@ Each position focuses on a distinct but complementary area:
 The post is funded for 18 months in the first instance and will be available from 1st July. The start date is negotiable.
 
 
+### Salary
+
+UCL Grade 7 Spine point 32, including London Allowance. More details can be found at [here](https://www.ucl.ac.uk/human-resources/sites/human_resources/files/2024_-_25_ucl_non-clinical_grade_structure_march_25_update_with_apr_strategy_update.pdf)
+
 
 ### Contact
 
-To apply or express interest, please email **ykzhoua@gmail.com** with a brief introduction and your CV attached.
+To express interest, please email **ykzhoua@gmail.com** with a brief introduction, expecting starting date, and your CV attached.
 
-The application window will be opened soon.
+The official application window will be opened soon.
